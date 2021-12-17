@@ -96,3 +96,13 @@ footer{
     margin: 1rem 0;
 }
 
+.vercel-logo{
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+   justify-content: center;
+}
+
+.vercel-logo img{
+    width: 5rem;
+}

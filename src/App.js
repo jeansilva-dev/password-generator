@@ -60,6 +60,11 @@ function App() {
     return passwd;
   }
 
+  const handleCopyPassword = () => {
+    navigator.clipboard.writeText(password);
+    Toast.success("Password copied to clipboard!", 1000);
+  }
+
   return (
     <div className="App">
 
@@ -72,7 +77,7 @@ function App() {
             <h1 className="generator__title">Strong Password Generator</h1>
           </header>
 
-          <div className="generator__password"  >
+          <div className="generator__password" onClick={handleCopyPassword}>
             <input 
               type="text" 
               className="generator__password-value" 
@@ -152,6 +157,11 @@ function App() {
 
         <footer>
           <a href="https://github.com/jeansilva-dev/password-generator" target="_blank" rel="GitHub"> <i className="lab la-github-alt"></i> Source code</a>
+
+          <div className="vercel-logo">
+            <div>Hosted by:</div>
+            <a href="https://vercel.com/" target="_blank" rel="noopener noreferrer"><img src="static/vercel-logotype-light.png" alt="Vercel logo" /></a>
+          </div>
         </footer>
 
       </div>    
