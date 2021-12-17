@@ -16,7 +16,11 @@ img{
 }
 
 body{
+    font-family: Roboto;
     background:#383A59;
     user-select: none;
 }
 
+label{
+    cursor: pointer;
+}

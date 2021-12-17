@@ -42,14 +42,21 @@ footer{
     width: 1.5rem;
 }
 
-.generator__passwd{
+.generator__password{
     position: relative;
     width: 100%;
-    padding: .5rem;
+
     background-color: #383A59;
     color: #fff;
 }
-
+.generator__password-value{
+    background: inherit;
+    color: inherit;
+    padding: .5rem;
+    border:none;
+    height: 100%;
+    width: 100%;
+}
 .copy-btn{
     display: flex;
     flex-flow: row nowrap;
