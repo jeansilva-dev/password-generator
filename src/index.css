@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a, a:link, a:visited{
+    text-decoration: none;
+}
+
+img{
+    border: none;
+    width: 100%;
+    height: auto;
+}
+
+body{
+    background:#383A59;
+    user-select: none;
+}
+
