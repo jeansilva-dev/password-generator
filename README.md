@@ -3,6 +3,7 @@ A password generator built using ReactJS.
 
 ## Demo
 ![demo](https://dmagetik.sirv.com/password-generator/demo.gif)
+
 Access http://passwd-generator.vercel.app for a live demo.
 
 ## Steps to run in your machine
